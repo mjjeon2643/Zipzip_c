@@ -1,0 +1,248 @@
+.guide-wrapper {
+  gap: 20px;
+}
+
+.guide-wrapper h1{
+    font-size: 32px;
+    font-weight: 700;
+    color: #111;
+    text-align: left;
+}
+
+.guide-wrapper p{
+    font-family: 'Pretendard', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #444;
+    text-align: left;
+}
+
+.community-layout {
+  display: flex;
+  gap: 30px;
+  margin-top: 32px;
+  align-items: flex-start;
+}
+
+.main-column {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.community-section {
+  flex: 1;
+  min-width: 0;
+}
+
+.community-section h3{
+    font-family: 'Pretendard', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #111;
+    text-align: left;
+}
+
+.community-sidebar {
+  margin-top: 90px;
+  position: sticky;
+  top: 200px;
+  width: 260px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.popular-box {
+
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 16px;
+  background-color: #fafafa;
+}
+
+.popular-box h4 {
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.popular-box ol {
+  padding-left: 20px;
+  margin: 0;
+  font-size: 14px;
+  background-color: #fafafa;
+}
+.popular-box li {
+  background-color: #fafafa;
+}
+
+.number {
+  color: #9c9c9c; 
+  font-family: 'Pretendard', sans-serif;
+  font-weight: 500;
+  margin-right: 4px;
+  background-color: #fafafa;
+
+}
+
+.recommend-box {
+  background-color: #f1f6fb;
+  border-radius: 10px;
+  padding: 16px;
+  font-size: 14px;
+}
+
+.recommend-box strong {
+    font-family: 'Pretendard', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #f1f6fb;
+}
+.recommend-box p {
+    margin-top: 10px;
+    font-family: 'Pretendard-SemiBold', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: black;
+    background-color: #f1f6fb;
+}
+
+
+.community-filter {
+  margin: 10px 0 20px;
+}
+
+.community-filter select {
+  padding: 6px 12px;
+  font-family: 'Pretendard', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #333;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 -960 960 960' fill='%231f1f1f'><path d='M480-384 288-576h384L480-384Z'/></svg>");  
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 20px;  
+}
+
+.community-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.community-item {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  transition: box-shadow 0.2s ease;
+}
+
+.community-item:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.community-item h4 {
+  margin: 0 0 8px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: white;
+}
+
+.community-item p {
+    margin: 0 0 12px;
+    font-family: 'Pretendard', sans-serif;
+    font-size: 14px;
+    color: #333;
+    background-color: white;
+}
+
+.community-meta {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    font-family: 'Pretendard', sans-serif;
+    font-size: 12px;
+    color: #777;
+}
+
+.community-meta span {
+    background-color: white;
+}
+
+.meta-icons {
+    background-color: white;
+}
+
+.meta-icons span {
+    margin-left: 10px;
+}
+
+.faq-section {
+  margin-top: 20px;
+  padding: 20px 0;
+}
+
+.faq-section h3 {
+  font-family: 'Pretendard', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.faq-box {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fafafa;
+}
+
+.faq-item {
+  border: none;
+}
+
+.faq-question {
+  width: 100%;
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
+  background: transparent;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.faq-answer {
+  display: none;
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-family: 'Pretendard', sans-serif;
+  padding: 0 22px;
+  color: #444;
+  background-color: #fafafa;
+}
+
+.faq-item.active .faq-answer {
+  display: block;
+  padding: 0 22px;
+  margin-top: 10px;
+}
+
+.faq-icon {
+  width: 19px;
+  height: 19x;
+  transition: transform 0.2s;
+  fill: black;
+  background-color: #fafafa;
+}
+
+.faq-item.active .faq-icon {
+  transform: rotate(180deg);
+}

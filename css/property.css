@@ -1,0 +1,232 @@
+/* 전체 섹션 */
+.section {
+  width: 1246px;
+  margin: 20px auto;
+
+  font-family: 'Pretendard', sans-serif;
+}
+
+/* 주소 제목 */
+.section h2 {
+  font-family: 'Pretendard-Bold';
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 32px;
+  color: #111;
+}
+
+.image-slider {
+  position: relative;
+  width: 1190px;
+  height: auto;
+  margin: auto;
+  text-align: center;
+}
+.image-slider .prev {
+  left: -60px;
+}
+.image-slider .next {
+  right: -60px;
+}
+
+.image-slider img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 28px;
+  background: none;
+  border: none;
+  color: orange;
+  cursor: pointer;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+
+
+.fuck {
+  width: 1190px;
+  margin: 28px;
+}
+/* 간략 메타 정보 */
+.property-meta {
+  font-family: 'Pretendard-Medium';
+  font-size: 18px;
+  color: #666666;
+  margin-bottom: 48px;
+}
+
+.property-info-section {
+  margin-top: 40px;
+  width: 1190px;
+}
+
+/* 매물 정보 제목 */
+.property-info-section h3 {
+  font-family: 'Pretendard-SemiBold';
+  font-size: 20px;
+  color: black;
+
+  margin-bottom: 11px;
+}
+
+/* 매물 정보 목록 */
+.property-info-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+
+.property-info-list strong {
+  font-family: 'Pretendard-Medium';
+  font-size: 16px;
+  color: #666666;
+
+  margin-right: 8px;
+}
+.property-info-list li {
+  font-family: 'Pretendard-Medium';
+  font-size: 16px;
+  color: #666666;
+}
+
+.property img {
+  width: 1246px;
+  height: 600px;
+  padding: 0;
+}
+.property-image {
+  margin: 54px 0;
+}
+.property-image h3{
+  font-family: 'Pretendard-SemiBold';
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+
+  margin-bottom: 16px;
+}
+
+.property-image img {
+  width: 1200px;
+  height: 540px;
+  border-radius: 8px;
+}
+
+
+/* 지도 아래 파트 */
+.infra-wrapper {
+  width: 1190px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.infra-info {
+  width: 760px;
+  height: 279px;
+
+  background-color: #fafafa;
+  padding: 24px 32px;
+  border-radius: 8px;
+}
+
+.infra-info h3 {
+  font-family: 'Pretendard-Bold';
+  font-size: 24px;
+  margin-bottom: 16px;
+  background-color: #fafafa;
+}
+
+.infra-info ul {
+  padding-left: 0;
+  list-style: none;
+  line-height: 1.8;
+  background-color: #fafafa;
+}
+
+.infra-info li {
+  display: flex;
+  align-items: center;
+}
+
+.infra-info li strong {
+  width: 138px;
+  height: 27px;
+
+  font-family: 'Pretendard-Medium';
+  font-size: 18px;
+  color: #666666;
+
+  margin-right: 24px;
+  background-color: #fafafa;
+
+}
+
+.infra-info li {
+  height: 27px;
+  font-family: 'Pretendard-Medium';
+  color: #000000;
+  font-size: 16px;
+  margin-bottom: 10px;
+  background-color: #fafafa;
+}
+
+
+
+/* 오른쪽 상자 */
+.infra-sidebox {
+  width: 420px;
+  background-color: #fafafa;
+  padding: 24px 36px;
+  border-radius: 8px;
+}
+
+.infra-sidebox h3 {
+  font-family: 'Pretendard-Bold';
+  font-size: 24px;
+
+  margin-bottom: 11px;
+  background-color: #fafafa;
+}
+
+.infra-sidebox p {
+  font-family: 'Pretendard-Regular';
+  font-size: 16px;
+  color: #999999;
+
+  width: 360px;
+  margin-bottom: 91px;
+  background-color: #fafafa;
+
+}
+
+.infra-button {
+  width: 97px;
+  height: 45px;
+  display: flex;
+  justify-content: center;   /* 수평 가운데 */
+  align-items: center;  
+
+  background-color: #f39c12;
+  border-radius: 8px;
+
+  font-family: 'Pretendard-SemiBold';
+  font-size: 14px;
+  color: black;
+}

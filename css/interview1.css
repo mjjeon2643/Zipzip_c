@@ -1,0 +1,111 @@
+
+.interview-wrapper {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 24px;
+}
+
+.interview-image img {
+  width: 700px;
+  border-radius: 8px;
+}
+
+.interview-info-box {
+  background-color: #FEF5E7;
+  border-radius: 12px;
+  padding: 20px;
+  width: 320px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.interview-info-box h4 {
+  background-color: #FEF5E7;
+
+  font-family: 'Pretendard';
+  font-size: 19px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.interview-info-box ul {
+  line-height: 1.6;
+  padding-left: 0;
+  list-style: none;
+}
+
+.interview-info-box li {
+    font-family: 'Pretendard';
+    font-size: 18px;
+    font-weight: 500;
+
+    margin: 3px 0;
+    background-color: #FEF5E7;
+}
+
+.info-icons {
+  background-color: #FEF5E7;
+  display: flex;
+  gap: 16px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.interview-card-text {
+  font-family: 'Pretendard', sans-serif;
+}
+
+.interview-card-text strong {
+  font-size: 22px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.interview-card-text p {
+  font-size: 17px;
+  color: #555;
+}
+
+.interview-body {
+  max-width: 800px;
+  line-height: 1.8;
+
+  font-family: 'Pretendard';
+  font-size: 18px;
+  color: #222;
+}
+
+.icon-love {
+  stroke: black; /* 하트 테두리 */
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  background-color: #FEF5E7;
+}
+.love-count {
+    font-family: 'Pretendard';
+    font-size: 16px;
+    color: black;
+
+    margin-right: 3px;
+    background-color: #FEF5E7;
+}
+
+.icon-chat {
+  stroke: black; /* 하트 테두리 */
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  background-color: #FEF5E7;
+  transform: scaleX(-1);
+}
+.chat-count {
+    font-family: 'Pretendard';
+    font-size: 16px;
+    color: black;
+
+    margin-right: 3px;
+    background-color: #FEF5E7;
+}

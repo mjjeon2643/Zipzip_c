@@ -1,0 +1,667 @@
+/* 지역 정보, 매물 찾기, 귀농귀촌 이야기, 문의 및 안내 공통 스타일 */
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.layout-page {
+  padding-top: 122.8px;
+  display: block;
+  width: 1440px;
+  margin: 0 auto;
+  background-color: #fafafa;
+}
+
+.content-wrapper {
+  display: flex;
+  gap: 20px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  margin-left: 20px;
+}
+
+.navigation-bar {
+  height: 50px;
+  width: 300px;
+  margin-left: -40px;
+  color: #666666;
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none; 
+}
+
+.navigation-title {
+  font-family: 'Pretendard-Bold', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.home-icon {
+  width: 15px;
+  height: 15px;
+  margin-right: 2px;
+  vertical-align: middle;
+  color: #666666;
+}
+
+.step-flow {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 30px 0;
+}
+
+.step {
+  background-color: #edf1f3;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-weight: bold;
+  color: #2c3e50;
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+.icon-double_arrow {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+
+.icon-arrow_right {
+  width: 20px;
+  height: 20px;
+  color: #666666;
+  vertical-align: middle;
+}
+
+.sidebar {
+  width: 230px;
+  padding: 22px;
+  background-color: #FEF5E7;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.sidebar h2 {
+  font-family: Pretendard-SemiBold, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #222222;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  background-color: #FEF5E7;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 25px;
+  background-color: #FEF5E7;  
+}
+
+.sidebar ul li {
+  margin-left: 10px;
+  margin-bottom: 8px;
+  background-color: #FEF5E7;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  font-family: 'Pretendard-Regular', sans-serif;
+  font-weight: 400;
+  background-color: #FEF5E7;
+}
+
+.menu-block {
+  cursor: pointer;
+  border-radius: 6px;
+  background-color: #FEF5E7;
+}
+
+/* ------------------- 본문 ------------------- */
+.guide-container {
+  padding: 40px;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #222;
+}
+
+.guide-wrapper {
+  display: flex;
+  flex-direction: column;  /* 세로 방향 정렬 */
+  gap: 48px;                /* 섹션 사이 간격 */
+  padding: 30px;
+}
+
+.guide-wrapper h1 {
+  font-family: 'Pretendard-Bold', sans-serif;
+  font-size: 32px !important;
+}
+
+.section-title {
+  display: flex;           /* 핵심! 가로 정렬 */
+  align-items: center;     /* 세로 가운데 정렬 */
+  gap: 6px;                /* 아이콘과 텍스트 간 간격 */
+  color: #333;
+}
+
+.section-title h2 {
+  font-family: 'Pretendard-Bold', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #222222;
+  margin-bottom: 12px;
+}
+
+.section-icon {
+  width: 25px;
+  height: 25px;
+  fill: #333;
+  position: relative;
+  top: 2px;
+  background-color: white;
+}
+
+.strategy {
+  width: 900px;
+
+}
+
+.intro h1, .strategy h1 {
+  font-family: Pretendard-Bold, sans-serif;
+  font-size: 36px;
+  color: #222222;
+  margin-bottom: 24px;
+  font-weight: 700;
+}
+
+.intro-row {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  gap: 25px;
+  margin-left: 50px;
+}
+
+
+.intro h2,
+.strategy h2 {
+  font-size: 24px;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+.label{
+  font-family: 'Pretendard-SemiBold', sans-serif;
+  width: 60px;
+  font-size: 28px;
+  font-weight: 500;
+  margin: 5px 0;
+  flex-shrink: 0;
+  align-items: center;
+}
+
+.desc {
+  flex: 1;
+  min-width: 500px;
+  font-family: Pretendard-Regular, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  word-break: break-word;
+}
+
+
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin: 24px 0 45px 20px;
+}
+
+.step {
+  height: 70px;
+  background-color: #ecf0f1;
+  padding: 20px 30px;
+  border-radius: 18px;
+  white-space: nowrap;
+  font-family: 'Pretendard-Medium', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.step-info {
+  width: 900px;
+  background-color: transparent;
+  border-radius: 12px;
+  padding: 8px 16px;
+  margin-bottom: 24px;
+  margin-left: 18px;
+  border: 1px solid #e5e7eb;
+}
+
+.step-info h3 {
+  font-family: 'Pretendard-SemiBold', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #000000;
+}
+
+.step-info p {
+  font-family: 'Pretendard-Light', sans-serif;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #374151;
+}
+
+.arrow {
+  font-size: 18px;
+  color: #6b7280;
+}
+
+.page-title h2{
+  font-family: 'Pretendard-Bold', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #222222;
+  margin-bottom: 12px;
+}
+
+.tabs {
+  display: flex;
+  width: 1400px;
+  border-bottom: 2px solid #ddd;
+  padding-left: 0;
+  margin: 0 auto;
+}
+
+.tabs .tab {
+  list-style: none;
+  margin-right: 100px;
+  padding: 10px 0;
+  cursor: pointer;
+  font-family: Pretendard-Medium, sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  color: #999999;
+  border-bottom: 4px solid transparent;
+}
+
+.tabs .tab.active {
+  color: #f39c12;
+  position: relative;
+  border-bottom-color: none;
+}
+
+.tabs .tab.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 3.5px;
+  bottom: -8px; /* ← 이 숫자로 선 위치 조정 */
+  background-color: #f39c12;
+}
+
+.tab-content {
+  display: none;
+  padding-top: 30px;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+blockquote {
+  border-left: 5px solid #f39c12;
+  padding-left: 15px;
+  font-size: 20px;
+  color: #444;
+  margin: 20px 0;
+}
+
+.quote-box {
+  display: inline-block;
+  border: 2px solid #f39c12;
+  border-radius: 10px;
+  padding: 10px 15px;
+  font-size: 20px;
+  color: #f39c12;
+  font-style: italic;
+  line-height: 1.5;
+  position: relative;
+}
+
+.quote-box::before,
+.quote-box::after {
+  content: '"';
+  color: #f39c12;
+  font-size: 20px;
+  vertical-align: middle;
+  margin: 0 5px;
+}
+
+
+/* 공지사항 섹션 */
+.notice-section {
+  max-width: 1000px;
+  margin: 40px auto;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.notice-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.notice-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.notice-description {
+  font-size: 16px;
+  color: #555;
+}
+
+.notice-search {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 6px 10px;
+  width: 300px;
+  height: 40px;
+  background: #fff;
+}
+
+.notice-search input {
+  width: 100%;  
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.search-btn {
+  width: 150px;
+  height: 25px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #888;
+  margin-left: 6px;
+}
+
+
+.notice-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.notice-item {
+  position: relative;
+  border-bottom: 1px solid #eee;
+  padding: 20px 0;
+  cursor: pointer;
+}
+
+.notice-title {
+  font-weight: 600;
+  font-size: 16px;
+  color: #f39c12;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.category {
+  font-weight: bold;
+}
+
+.badge {
+  background-color: #f39c12;
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 10px;
+}
+
+.notice-desc {
+  margin-top: 6px;
+  font-size: 14px;
+  color: #666;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.notice-date {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  font-size: 13px;
+  color: #ccc;
+}
+
+
+
+
+/* FAQ 섹션 */
+.faq-item {
+  max-width: 800px;
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.faq-item p{
+  cursor: pointer;
+}
+
+.faq-item summary {
+  display: inline-flex;
+  font-family: Pretendard-SemiBold, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  width: 100%;
+  cursor: pointer;
+  align-items: center;
+  gap: 6px;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+.arrow-drop-up {
+  width: 25px;
+  height: 25px;
+  transform: rotate(0deg);
+  transition: transform 0.3s;
+}
+
+.faq-item[open] .arrow-drop-up {
+  transform: rotate(180deg);
+}
+
+.faq-item p {
+  padding: 10px 30px;
+  font-family: Pretendard-Light, sans-serif;
+  font-size: 15px;
+  color: #666666;
+}
+
+/* 챗봇 */
+
+
+#chatToggleBtn {
+  display: flex;
+  align-items: center;
+}
+#chatToggleBtn img {
+  margin-right: 6px;
+}
+
+#chatToggleBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 12px 16px;
+  background-color: #f39c12;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 24px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.chat-box.active {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+}
+
+.chat-box {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  width: 320px;
+  height: 420px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  z-index: 999;
+  transform: translateY(100%);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+.chat-box.active {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+}
+
+.chat-header {
+  background-color: #f39c12 !important;
+  color: white;
+  padding: 12px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-header span {
+  background-color: #f39c12;
+}
+.chat-body {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+  background: #f9f9f9;
+}
+
+.chat-input-area {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.chat-input-area input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+}
+
+.chat-input-area button {
+  margin-left: 6px;
+  padding: 8px 12px;
+  background-color: #f39c12;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* 메시지 스타일 */
+.message {
+  margin: 6px 0;
+  padding: 8px 10px;
+  border-radius: 12px;
+  max-width: 80%;
+  clear: both;
+}
+
+.chat-question {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.chat-time {
+  color: #666;
+  font-size: 13px;
+}
+
+.message.user {
+  background-color: #dbeafe;
+  float: right;
+}
+
+.chat-icon {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  background-color: #f39c12;
+}
+
+#closeChatBtn {
+  color: white;
+}
+
+
+
+.page-footer {
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}

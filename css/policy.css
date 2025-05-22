@@ -1,0 +1,208 @@
+.policy-section {
+  width: 850px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+
+.policy-subtitle {
+  font-size: 16px;
+  color: #555;
+}
+
+.policy-table {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: white;
+}
+
+.policy-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: white;
+}
+
+.policy-content {
+  max-width: 800px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #222;
+  background-color: white;
+}
+
+.policy-content strong {
+  display: inline-block;
+  margin-bottom: 4px;
+  font-weight: 700;
+  background-color: white;
+}
+
+.policy-btn {
+  background-color: white;
+  color: #f39c12;
+  border: 1px solid #f39c12;
+  padding: 3px 6px;
+  border-radius: 6px;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: 0.2s;
+}
+
+.policy-btn:hover {
+  background-color: #f39c12;
+  color: white;
+}
+
+
+
+.local-policy-section {
+  width: 850px;
+  margin-top: 20px;
+  padding: 20px;
+  background: white;
+  border-radius: 16px;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+.region-policy-block {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+  background-color: white;
+}
+.region-policy-block:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.region-name {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+.policy-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.policy-text {
+  background-color: white;
+}
+
+.policy-text strong {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 6px;
+  background-color: white;
+}
+
+.policy-text p {
+  font-size: 14px;
+  color: #555;
+  background-color: white;
+}
+
+.local-policy-btn {
+  background: white;
+  border: 1px solid #333;
+  padding: 3px 6px;
+  border-radius: 6px;
+
+  color: #333;
+  font-size: 14px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.local-policy-btn:hover {
+  color: white;
+  background: #333;
+}
+
+
+
+.grant-policy-section {
+  width: 850px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 16px;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.grant-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.grant-text {
+  max-width: 80%;
+  background-color: white;
+}
+
+.grant-text strong {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 4px;
+  background-color: white;
+}
+
+.grant-text p {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.6;
+  background-color: white;
+}
+
+.grant-btn {
+  background: white;
+  border: 1px solid #333;
+  padding: 3px 7px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: #333;
+  transition: background 0.2s, color 0.2s;
+}
+
+.grant-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;     
+  background: none;       
+  pointer-events: none;   
+  display: block;
+}
+
+.grant-btn:hover {
+  background: #333;
+  color: white;
+}

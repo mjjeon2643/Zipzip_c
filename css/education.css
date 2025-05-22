@@ -1,0 +1,186 @@
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-title {
+    font-family: 'Pretendard-Bold';
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.tab-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.tab-btn {
+    font-family: 'Pretendard';
+    font-weight: 600;
+    font-size: 20px;
+    color: #777;
+
+    padding: 8px 20px;
+    background: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.tab-btn.active {
+    border: 2px solid #222;    
+    background: white;
+    color: #222;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.education-card {
+  position: relative;
+  border: 1px solid black;
+  padding: 24px;
+  margin-bottom: 16px;
+  border-radius: 12px;
+}
+
+.edu-title {
+    font-family: 'Pretendard';
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.edu-meta {
+    font-family: 'Pretendard';
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+
+    padding: 5px 0;
+    color: #555;
+    line-height: 1.5;
+}
+
+.platform-box-wrapper {
+  display: flex;
+  gap: 16px;
+  margin-top: 32px;
+  flex-wrap: wrap;
+}
+
+.platform-box {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 12px;
+  padding: 20px;
+  min-width: 280px;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
+}
+
+.platform-box:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.platform-text strong {
+    font-family: 'Pretendard';
+    font-size: 24px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 6px;
+}
+
+.platform-text p {
+    font-family: 'Pretendard';
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+}
+
+.arrow {
+  font-size: 44px;
+  color: #666;
+  margin-left: 12px;
+}
+
+
+.edu-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 14px;
+    padding: 4px 10px;
+    border-radius: 16px;
+    font-weight: bold;
+}
+
+.edu-badge.open {
+    background: #fff1e3;
+    color: #f59b00;
+    cursor: pointer;
+}
+
+.edu-badge.closed {
+    background: #eee;
+    color: #888;
+    cursor: pointer;
+}
+
+.platform-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  
+  margin-top: 32px;
+}
+
+.platform-card {
+  border: 1px solid #333;
+  border-radius: 12px;
+  height: 210px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.platform-card strong {
+    font-family: 'Pretendard';
+    font-size: 25px;
+    font-weight: 500;
+
+    min-height: 60px;
+    margin-bottom: 8px;
+    font-family: 'Pretendard', sans-serif;
+}
+
+.platform-card p {
+    font-family: 'Pretendard', sans-serif;
+    font-size: 19px;
+    color: #555;
+    flex-grow: 1;
+}
+
+.platform-btn {
+  margin-top: 16px;
+  display: inline-block;
+  background: #f39c12;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 12px;
+  text-decoration: none;
+  text-align: center;
+  width: fit-content;
+}
+
